@@ -1,0 +1,19 @@
+.angle-view {
+    overflow: hidden;
+    width: 600px; margin: 10px auto; border: 5px solid #CECECE;
+}
+.angle-view ul, #angle-view li {
+    margin: 0; padding: 0;
+}
+.angle-view li {
+    list-style: none;
+}
+.angle-view ul {
+    width: 600px;
+    height: 330px;
+}
+.angle-view img {
+    width: 90%;
+    display: block;
+    margin: 18px auto;
+}
