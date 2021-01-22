@@ -79,7 +79,7 @@
 //                $(this).width(width);
                 $(this).attr('data-id', i);
             });
-            imageCount = allImage.size();
+            imageCount = allImage.length;
             changeWidth = parseInt(width / imageCount / options.speed);
             allImage.toggle();
             currentImage = $angle.data('current');
